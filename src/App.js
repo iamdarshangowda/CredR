@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section>
+        <div>
+          <h2>Anim nulla laboris anim aute nulla adipisicing aute.</h2>
+          <p>
+            In nisi culpa et excepteur reprehenderit velit amet ullamco. Anim eu
+            aliqua eu laboris aute sunt velit in mollit deserunt.
+          </p>
+          <div>
+            <p>WHAT WE OFFER</p>
+            <ul>
+              <li>Anim nulla laboris</li>
+              <li>Anim nulla laboris</li>
+              <li>Anim nulla laboris</li>
+              <li>Anim nulla laboris</li>
+              <li>Anim nulla laboris</li>
+              <li>Anim nulla laboris</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <form>
+            <h3>Personal Details</h3>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Saniyo Joseph" />
+            <label for="phone">Mobile Number</label>
+            <input type="text" id="phone" placeholder="827735748" />
+            <select value="Select City">
+              <option>Bengaluru</option>
+              <option>Mumbai</option>
+              <option>Delhi</option>
+              <option>Kolkata</option>
+            </select>
+            <button>CONTINUE</button>
+          </form>
+        </div>
+      </section>
     </div>
   );
 }
