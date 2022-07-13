@@ -185,16 +185,19 @@ h4 {
 
 @media only screen and (max-device-width: 480px) {
   .top-text {
-    width: 100%;
+    width: 400px;
     margin-bottom: 30px;
   }
   .middle-text {
-    width: 100%;
+    width: 400px;
   }
   .bike-img {
     width: 400px;
   }
-
+  .last-container {
+    height: max-content;
+    padding-bottom: 30px;
+  }
   .last-lists-container {
     display: flex;
     flex-wrap: wrap;
