@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 1.1px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: purple;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.top-text {
+  width: 500px;
+  color: white;
+}
+
+.top-text > h2 {
+  margin-bottom: 20px;
+}
+
+.top-text > p {
+  margin-bottom: 30px;
+}
+
+.offer-box {
+  border: 1px dashed white;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 15px;
+  position: relative;
+}
+
+.offer-list {
+  margin-top: 15px;
+}
+
+.offer-list > p {
+  margin-bottom: 20px;
+}
+
+.text-box {
+  color: red;
+  position: absolute;
+  top: -17px;
+  padding: 10px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  justify-content: space-evenly;
+  height: 400px;
+  border-radius: 8px;
+}
+
+.user-input {
+  height: 35px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  height: 35px;
+  background-color: #da2128;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.name-label {
+  position: absolute;
+  top: 90px;
+  left: 35px;
+  background-color: white;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.phone-label {
+  position: absolute;
+  top: 170px;
+  left: 35px;
+  background-color: white;
+  padding: 6px;
+  font-size: 14px;
+}
+
+/* Middle */
+
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px;
+  flex-wrap: wrap;
+}
+
+.middle-container p {
+  font-size: 12px;
+  color: gray;
+}
+
+.middle-text {
+  width: 600px;
+}
+
+.bike-img {
+  width: 550px;
+}
+
+.middle-first-text {
+  margin-bottom: 70px;
+}
+
+.middle-first-text > h2 {
+  margin-bottom: 20px;
+}
+
+.middle-last-text > h3,
+.middle-last-text > p {
+  margin-bottom: 20px;
+}
+
+/* Last Section */
+
+.last-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+.last-container > h3 {
+  margin-bottom: 20px;
+}
+
+.last-container > p {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.last-lists-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+}
+
+.fa-solid {
+  padding-right: 5px;
+}
+
+.icon-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .top-text {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .middle-text {
+    width: 100%;
+  }
+  .bike-img {
+    width: 400px;
+  }
+
+  .last-lists-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
